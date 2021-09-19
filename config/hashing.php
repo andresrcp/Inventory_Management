@@ -11,7 +11,7 @@ return [
     | passwords for your application. By default, the bcrypt algorithm is
     | used; however, you remain free to modify this option if you wish.
     |
-    | Supported: "bcrypt", "argon", "argon2id"
+    | Supported: "bcrypt", "coreUI", "argon2id"
     |
     */
 
@@ -43,7 +43,7 @@ return [
     |
     */
 
-    'argon' => [
+    'coreUI' => [
         'memory' => 1024,
         'threads' => 2,
         'time' => 2,

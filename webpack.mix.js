@@ -20,3 +20,10 @@ mix.js('resources/js/app.js', 'public/js')
 if (mix.inProduction()) {
     mix.version();
 }
+
+mix.styles([
+    'resources/coreUI/css/style.css'
+], 'public/css/coreUI.css').scripts([
+    'resources/coreUI/js/coreui.bundle.min.js',
+    'resources/coreUI/js/svgxuse.min.js'
+],'public/js/coreUI.js');
