@@ -28,7 +28,7 @@
     <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <link href="{{url('public/css/coreUI.css')}}" rel="stylesheet">
+    <link href="{{asset('css/coreui.css')}}" rel="stylesheet">
 
     <meta name="robots" content="noindex">
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118965717-1"></script>
@@ -1099,7 +1099,7 @@
     </div>
 </div>
 
-<script src="{{url('public/js/coreUI.js')}}"></script>
+<script src="{{asset('js/coreui.js')}}"></script>
 
 </body>
 </html>

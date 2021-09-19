@@ -21,9 +21,7 @@ if (mix.inProduction()) {
     mix.version();
 }
 
-mix.styles([
-    'resources/coreUI/css/style.css'
-], 'public/css/coreUI.css').scripts([
+mix.postCss('resources/coreUI/css/style.css', 'public/css/coreui.css').js([
     'resources/coreUI/js/coreui.bundle.min.js',
     'resources/coreUI/js/svgxuse.min.js'
-],'public/js/coreUI.js');
+],'public/js/coreui.js');
