@@ -182,7 +182,7 @@
                             <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-account-logout"></use>
                         </svg>
                         Login</a></li>
-                <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="register.html" target="_top">
+                <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="register" target="_top">
                         <svg class="c-sidebar-nav-icon">
                             <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-account-logout"></use>
                         </svg>
